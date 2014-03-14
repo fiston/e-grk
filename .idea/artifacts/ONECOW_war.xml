@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="ONECOW:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="ONECOW.war">
+      <element id="artifact" artifact-name="ONECOW:war exploded" />
+    </root>
+  </artifact>
+</component>
