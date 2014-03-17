@@ -73,19 +73,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logback.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="logback.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="55" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+            <state line="3" column="2" selection-start="58" selection-end="687" vertical-scroll-proportion="0.104166664" vertical-offset="0" max-vertical-offset="432">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mvc-dispatcher-servlet.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mvc-dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="58" selection-start="1681" selection-end="1681" vertical-scroll-proportion="0.53699285" vertical-offset="75" max-vertical-offset="1080">
+            <state line="17" column="72" selection-start="1531" selection-end="1531" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1080">
               <folding />
             </state>
           </provider>
@@ -134,8 +134,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/rab/girinka/models/Location.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/rab/girinka/models/User.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/source.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
       </list>
     </option>
   </component>
@@ -697,12 +697,12 @@
       <workItem from="1394717844904" duration="6610000" />
       <workItem from="1394791021338" duration="752000" />
       <workItem from="1394793166584" duration="10080000" />
-      <workItem from="1395056896535" duration="13502000" />
+      <workItem from="1395056896535" duration="14181000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30944000" />
+    <option name="totallyTimeSpent" value="31623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1276" height="778" extended-state="6" />
@@ -1205,13 +1205,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="55" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/source.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="30" selection-start="673" selection-end="673" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="1230">
@@ -1221,7 +1214,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="58" selection-start="1681" selection-end="1681" vertical-scroll-proportion="0.53699285" vertical-offset="75" max-vertical-offset="1080">
+        <state line="17" column="72" selection-start="1531" selection-end="1531" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="2" selection-start="58" selection-end="687" vertical-scroll-proportion="0.104166664" vertical-offset="0" max-vertical-offset="432">
           <folding />
         </state>
       </provider>
