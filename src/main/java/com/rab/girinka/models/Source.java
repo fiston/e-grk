@@ -6,12 +6,8 @@ package com.rab.girinka.models;
 
 import java.io.Serializable;
 import java.util.List;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
+import java.util.UUID;
+import javax.persistence.*;
 
 /**
  *
@@ -20,7 +16,7 @@ import javax.persistence.OneToMany;
 @Entity
 public class Source implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int idSource;
@@ -30,6 +26,13 @@ public class Source implements Serializable {
     private String description;
     @OneToMany
     private List<Program> programs;
+    @ManyToOne
+    private User createdBy;
+    public String getUuid() {
+        return uuid;
+    }
+    @Column(name="uuid", nullable=false)
+    private String uuid;
 
     public Source(String sourceName, String description) {
         this.sourceName = sourceName;
@@ -37,6 +40,7 @@ public class Source implements Serializable {
     }
 
     public Source() {
+        uuid= UUID.randomUUID().toString();
     }
 
     public String getSourceName() {

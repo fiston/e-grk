@@ -1,5 +1,6 @@
 <html>
 <body>
-	<h1>${message}</h1>
+	<h1>Admin Page</h1>
+    <a href="/admin/source/list/">add Source</a>
 </body>
 </html>

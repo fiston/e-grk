@@ -6,12 +6,7 @@ package com.rab.girinka.models;
 
 import java.io.Serializable;
 import java.util.List;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
+import javax.persistence.*;
 
 /**
  *
@@ -20,9 +15,7 @@ import javax.persistence.OneToMany;
 @Entity
 public class LocationLevel implements Serializable {
 
-    @OneToMany(mappedBy = "locationLevel")
-    private List<Location> locations;
-    private static final long serialVersionUID = 1L;
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int idLocation;
@@ -30,6 +23,13 @@ public class LocationLevel implements Serializable {
     private String levelName;
     @Column(name = "description", nullable = false, length = 50)
     private String description;
+    @ManyToOne
+    private User createdBy;
+    public String getUuid() {
+        return uuid;
+    }
+    @Column(name="uuid", nullable=false)
+    private String uuid;
 
     public int getId() {
         return idLocation;
@@ -64,13 +64,6 @@ public class LocationLevel implements Serializable {
         return "com.rab.ririnka.model.Level[ id=" + idLocation + " ]";
     }
 
-    public List<Location> getLocations() {
-        return locations;
-    }
-
-    public void setLocations(List<Location> locations) {
-        this.locations = locations;
-    }
 
     public int getIdLocation() {
         return idLocation;

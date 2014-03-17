@@ -21,7 +21,6 @@ import javax.persistence.Temporal;
 @Entity
 public class Bull implements Serializable {
 
-    private static final long serialVersionUID = 1L;
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long idBull;
@@ -38,6 +37,22 @@ public class Bull implements Serializable {
     private String status;
     @Temporal(javax.persistence.TemporalType.DATE)
     private Date registrationDate;
+
+    public User getCreatedBy() {
+        return createdBy;
+    }
+
+    public void setCreatedBy(User createdBy) {
+        this.createdBy = createdBy;
+    }
+
+    @ManyToOne
+    private User createdBy;
+    public String getUuid() {
+        return uuid;
+    }
+    @Column(name="uuid", nullable=false)
+    private String uuid;
 
     public Long getIdBull() {
         return idBull;

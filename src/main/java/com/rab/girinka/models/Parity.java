@@ -5,11 +5,8 @@
 package com.rab.girinka.models;
 
 import java.io.Serializable;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import java.util.UUID;
+import javax.persistence.*;
 
 /**
  *
@@ -18,7 +15,7 @@ import javax.persistence.Id;
 @Entity
 public class Parity implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int idParity;
@@ -26,6 +23,13 @@ public class Parity implements Serializable {
     private String partyName;
       @Column(name = "description", nullable = false, length = 100)
     private String description;
+    @ManyToOne
+    private User createdBy;
+    public String getUuid() {
+        return uuid;
+    }
+    @Column(name="uuid", nullable=false)
+    private String uuid;
 
     public int getIdParity() {
         return idParity;
@@ -33,6 +37,9 @@ public class Parity implements Serializable {
 
     public void setIdParity(int idParity) {
         this.idParity = idParity;
+    }
+    public Parity(){
+        uuid= UUID.randomUUID().toString();
     }
 
     @Override

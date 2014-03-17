@@ -6,12 +6,7 @@ package com.rab.girinka.models;
 
 import java.io.Serializable;
 import java.util.Date;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
-import javax.persistence.Temporal;
+import javax.persistence.*;
 
 /**
  *
@@ -19,7 +14,7 @@ import javax.persistence.Temporal;
  */
 @Entity
 public class Kwitura implements Serializable {
-    private static final long serialVersionUID = 1L;
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long idKwitura;
@@ -31,6 +26,22 @@ public class Kwitura implements Serializable {
     private Girinka girinka;
     @Temporal(javax.persistence.TemporalType.DATE)
     private Date date;
+
+    public User getCreatedBy() {
+        return createdBy;
+    }
+
+    public void setCreatedBy(User createdBy) {
+        this.createdBy = createdBy;
+    }
+
+    @ManyToOne
+    private User createdBy;
+    public String getUuid() {
+        return uuid;
+    }
+    @Column(name="uuid", nullable=false)
+    private String uuid;
 
     public Long getIdKwitura() {
         return idKwitura;

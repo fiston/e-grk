@@ -2,6 +2,7 @@ package com.rab.girinka.models;
 
 import java.io.Serializable;
 import java.util.List;
+import java.util.UUID;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -15,6 +16,16 @@ import javax.persistence.Table;
 @Entity
 public class User implements Serializable {
 
+    public String getUuid() {
+        return uuid;
+    }
+
+    public void setUuid(String uuid) {
+        this.uuid = uuid;
+    }
+
+    @Column(name="uuid", nullable=false)
+    private String uuid;
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     protected int idUser;
@@ -30,15 +41,20 @@ public class User implements Serializable {
     private Role role;
     @OneToOne
     private Person person;
-    @OneToMany(mappedBy = "user")
-    private List<Program> programs;
-    @OneToMany(mappedBy = "inseminator")
-    private List<Insemination> inseminations;
-    @OneToMany(mappedBy = "user")
-    private List<Log> logss;
-   
-  
+
+    @ManyToOne
+    private User createdBy;
+    public User getCreatedBy() {
+        return createdBy;
+    }
+
+    public void setCreatedBy(User createdBy) {
+        this.createdBy = createdBy;
+    }
+
+
     public User() {
+        uuid= UUID.randomUUID().toString();
     }
 
     public int getIdUser() {
@@ -97,20 +113,5 @@ public class User implements Serializable {
         this.person = person;
     }
 
-    public List<Program> getPrograms() {
-        return programs;
-    }
-
-    public void setPrograms(List<Program> programs) {
-        this.programs = programs;
-    }
-
-    public List<Insemination> getInseminations() {
-        return inseminations;
-    }
-
-    public void setInseminations(List<Insemination> inseminations) {
-        this.inseminations = inseminations;
-    }
     
 }

@@ -30,6 +30,6 @@ public class SourceDAOImpl implements SourceDAO {
 
     @Transactional
     public List<Source> listSources() {
-        return null;//sessionFactory.getCurrentSession().createQuery("from Source").list();
+        return sessionFactory.getCurrentSession().createQuery("from Source").list();
     }
 }

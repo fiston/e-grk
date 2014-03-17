@@ -23,16 +23,8 @@ import javax.persistence.Temporal;
  */
 @Entity
 public class Cow implements Serializable {
-    @OneToMany(mappedBy = "cow")
-    private List<Kwitura> kwituras;
-    @OneToMany(mappedBy = "cow")
-    private List<LivestockEvent> livestockEvents;
-    @OneToMany(mappedBy = "cow")
-    private List<Insemination> inseminations;
-    @OneToMany(mappedBy = "cow")
-    private List<Girinka> girinkas;
 
-    private static final long serialVersionUID = 1L;
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long idCow;
@@ -57,6 +49,22 @@ public class Cow implements Serializable {
     @OneToOne
     private Insemination insemination;
     private int weight;
+
+    public User getCreatedBy() {
+        return createdBy;
+    }
+
+    public void setCreatedBy(User createdBy) {
+        this.createdBy = createdBy;
+    }
+
+    @ManyToOne
+    private User createdBy;
+    public String getUuid() {
+        return uuid;
+    }
+    @Column(name="uuid", nullable=false)
+    private String uuid;
 
     public Long getIdCow() {
         return idCow;

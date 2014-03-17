@@ -4,33 +4,17 @@
  */
 package com.rab.girinka.models;
 
+import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
-import java.util.List;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
-import javax.persistence.OneToMany;
-import javax.persistence.OneToOne;
-import javax.persistence.Temporal;
+import java.util.UUID;
 
 /**
- *
  * @author Administrator
  */
 @Entity
 public class Person implements Serializable {
-    @OneToMany(mappedBy = "person")
-    private List<Kwitura> kwituras;
-    @OneToMany(mappedBy = "person")
-    private List<Girinka> girinkas;
-    @OneToOne(mappedBy = "person")
-    private User user;
- 
-    private static final long serialVersionUID = 1L;
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long idPerson;
@@ -53,6 +37,13 @@ public class Person implements Serializable {
     private String martalStatus;
     @ManyToOne
     private Location location;
+    @ManyToOne
+    private User createdBy;
+    public String getUuid() {
+        return uuid;
+    }
+    @Column(name="uuid", nullable=false)
+    private String uuid;
 
     public Long getIdPerson() {
         return idPerson;
@@ -60,6 +51,10 @@ public class Person implements Serializable {
 
     public void setIdPerson(Long idPerson) {
         this.idPerson = idPerson;
+    }
+
+    public Person(){
+        uuid= UUID.randomUUID().toString();
     }
 
     @Override
@@ -150,5 +145,5 @@ public class Person implements Serializable {
     public void setLocation(Location location) {
         this.location = location;
     }
-    
+
 }

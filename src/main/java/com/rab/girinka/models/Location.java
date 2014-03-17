@@ -6,12 +6,7 @@ package com.rab.girinka.models;
 
 import java.io.Serializable;
 import java.util.List;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
-import javax.persistence.OneToMany;
+import javax.persistence.*;
 
 /**
  *
@@ -20,19 +15,56 @@ import javax.persistence.OneToMany;
 @Entity
 public class Location implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long idLocation;
     private String locationName;
     @ManyToOne
     private LocationLevel locationLevel;
+
+    public User getCreatedBy() {
+        return createdBy;
+    }
+
+    public void setCreatedBy(User createdBy) {
+        this.createdBy = createdBy;
+    }
+
     @ManyToOne
-    private Location location;
-    @OneToMany(mappedBy = "location")
-    private List<Person> persons;
-    @OneToMany(mappedBy = "location")
-    private List<Location> locations;
+    private User createdBy;
+    public String getUuid() {
+        return uuid;
+    }
+    @Column(name="uuid", nullable=false)
+    private String uuid;
+
+    public List<Location> getChildLocation() {
+        return childLocation;
+    }
+
+    public void setChildLocation(List<Location> childLocation) {
+        this.childLocation = childLocation;
+    }
+
+    public LocationLevel getLocationLevel() {
+        return locationLevel;
+    }
+
+    public void setLocationLevel(LocationLevel locationLevel) {
+        this.locationLevel = locationLevel;
+    }
+
+    public String getLocationName() {
+        return locationName;
+    }
+
+    public void setLocationName(String locationName) {
+        this.locationName = locationName;
+    }
+
+    @OneToMany
+    private List<Location> childLocation;
 
     public Long getIdLocation() {
         return idLocation;

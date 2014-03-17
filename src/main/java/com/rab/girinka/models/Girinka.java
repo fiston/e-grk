@@ -44,6 +44,29 @@ public class Girinka implements Serializable {
     private String milkEstimation;
     @Column(name = "status", nullable = false, length = 50)
     private String status;
+    @ManyToOne
+    private User createdBy;
+    public String getUuid() {
+        return uuid;
+    }
+    @Column(name="uuid", nullable=false)
+    private String uuid;
+
+    public List<Kwitura> getKwituras() {
+        return kwituras;
+    }
+
+    public void setKwituras(List<Kwitura> kwituras) {
+        this.kwituras = kwituras;
+    }
+
+    public User getCreatedBy() {
+        return createdBy;
+    }
+
+    public void setCreatedBy(User createdBy) {
+        this.createdBy = createdBy;
+    }
 
     public Long getIdGirinka() {
         return idGirinka;

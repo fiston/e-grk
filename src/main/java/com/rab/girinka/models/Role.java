@@ -3,13 +3,8 @@ package com.rab.girinka.models;
 
 import java.io.Serializable;
 import java.util.List;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
-import javax.persistence.Table;
+import java.util.UUID;
+import javax.persistence.*;
 
 @Entity
 public class Role implements Serializable {
@@ -23,8 +18,16 @@ public class Role implements Serializable {
     private String role_status;
     @Column(length = 50,nullable=false)
     private String description;
-    @OneToMany(mappedBy = "role")
-    private List<User> users;
+    @ManyToOne
+    private User createdBy;
+    public String getUuid() {
+        return uuid;
+    }
+    @Column(name="uuid", nullable=false)
+    private String uuid;
+    public void setUuid(String uuid) {
+        this.uuid = uuid;
+    }
 
     public Role(String roleName, String role_status, String description) {
         this.roleName = roleName;
@@ -33,6 +36,7 @@ public class Role implements Serializable {
     }
 
     public Role() {
+        uuid= UUID.randomUUID().toString();
     }
 
   
@@ -67,14 +71,6 @@ public class Role implements Serializable {
 
     public void setDescription(String description) {
         this.description = description;
-    }
-
-    public List<User> getUsers() {
-        return users;
-    }
-
-    public void setUsers(List<User> users) {
-        this.users = users;
     }
 
 }

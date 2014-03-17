@@ -6,6 +6,7 @@ package com.rab.girinka.models;
 
 import java.io.Serializable;
 import java.util.Date;
+import java.util.UUID;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -21,7 +22,7 @@ import javax.persistence.Temporal;
 @Entity
 public class Production implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long idProduction;
@@ -37,6 +38,13 @@ public class Production implements Serializable {
     private int qtyEvening;
     @Temporal(javax.persistence.TemporalType.DATE)
     private Date endDate;
+    @ManyToOne
+    private User createdBy;
+    public String getUuid() {
+        return uuid;
+    }
+    @Column(name="uuid", nullable=false)
+    private String uuid;
 
     public Long getIdProduction() {
         return idProduction;
@@ -44,6 +52,10 @@ public class Production implements Serializable {
 
     public void setIdProduction(Long idProduction) {
         this.idProduction = idProduction;
+    }
+
+    public Production(){
+        uuid= UUID.randomUUID().toString();
     }
 
     @Override

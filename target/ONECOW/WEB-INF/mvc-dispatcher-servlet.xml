@@ -18,7 +18,7 @@
     <context:annotation-config />
     <context:component-scan base-package="com.rab.girinka"/>
     <mvc:annotation-driven />
-    <mvc:resources mapping="/styles/**" location="/WEB-INF/pages/styles/" />
+    <mvc:resources mapping="/styles/**" location="/WEB-INF/styles/" />
 
     <bean id="jspViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/pages/"/>
@@ -52,7 +52,7 @@
             <props>
                 <prop key="hibernate.dialect">${jdbc.dialect}</prop>
                 <prop key="hibernate.show_sql">true</prop>
-                <prop key="hibernate.hbm2ddl.auto">create</prop>
+                <prop key="hibernate.hbm2ddl.auto">create-drop</prop>
             </props>
         </property>
     </bean>
