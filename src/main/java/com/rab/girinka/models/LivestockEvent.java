@@ -12,7 +12,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
-import javax.persistence.Table;
 import javax.persistence.Temporal;
 
 /**
@@ -20,7 +19,7 @@ import javax.persistence.Temporal;
  * @author Administrator
  */
 @Entity
-public class LivestockEvent implements Serializable {
+public class LiveStockEvent implements Serializable {
 
 
     @Id
@@ -68,10 +67,10 @@ public class LivestockEvent implements Serializable {
     @Override
     public boolean equals(Object object) {
         // TODO: Warning - this method won't work in the case the idLivestockEvent fields are not set
-        if (!(object instanceof LivestockEvent)) {
+        if (!(object instanceof LiveStockEvent)) {
             return false;
         }
-        LivestockEvent other = (LivestockEvent) object;
+        LiveStockEvent other = (LiveStockEvent) object;
         if ((this.idLivestockEvent == null && other.idLivestockEvent != null) || (this.idLivestockEvent != null && !this.idLivestockEvent.equals(other.idLivestockEvent))) {
             return false;
         }
