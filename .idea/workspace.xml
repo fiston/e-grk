@@ -63,7 +63,26 @@
     <favorites_list name="ONECOW" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="mvc-dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="57" selection-start="3250" selection-end="3250" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1290">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jdbc.properties" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="26" selection-start="190" selection-end="190" vertical-scroll-proportion="0.13363029" vertical-offset="0" max-vertical-offset="449">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -73,8 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/rab/girinka/models/ProductionService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/rab/girinka/service/BreedService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/rab/girinka/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/rab/girinka/service/RoleService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/rab/girinka/service/ProgramService.java" />
@@ -124,6 +141,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/rab/girinka/db/hibernate/GirinkaDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/rab/girinka/db/hibernate/InseminationDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/rab/girinka/db/hibernate/KwituraDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jdbc.properties" />
       </list>
     </option>
   </component>
@@ -234,16 +253,30 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="ONECOW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ONECOW" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -270,6 +303,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -664,45 +701,48 @@
       <workItem from="1395152541983" duration="531000" />
       <workItem from="1395153295411" duration="575000" />
       <workItem from="1395237988110" duration="7030000" />
+      <workItem from="1395320703455" duration="523000" />
+      <workItem from="1395329420713" duration="570000" />
+      <workItem from="1395391398200" duration="14000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39853000" />
+    <option name="totallyTimeSpent" value="40960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1276" height="778" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.267423" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32848838" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32848838" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20340356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20340356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.267423" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32722145" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994187" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32848838" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3309038" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -710,12 +750,12 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -735,8 +775,8 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3309038" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -761,495 +801,262 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="125" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="11" selection-start="4020" selection-end="4020" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1290">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="52" selection-start="318" selection-end="318" vertical-scroll-proportion="0.620438" vertical-offset="0" max-vertical-offset="420">
-          <folding>
-            <element signature="e#0#394#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="17" column="52" selection-start="318" selection-end="318" vertical-scroll-proportion="0.620438" vertical-offset="0" max-vertical-offset="420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/service/RoleService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="34" selection-start="353" selection-end="353" vertical-scroll-proportion="0.75842696" vertical-offset="0" max-vertical-offset="420">
-          <folding>
-            <element signature="e#0#394#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="18" column="34" selection-start="353" selection-end="353" vertical-scroll-proportion="0.75842696" vertical-offset="0" max-vertical-offset="420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/service/ProgramService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="36" selection-start="407" selection-end="407" vertical-scroll-proportion="0.66292137" vertical-offset="64" max-vertical-offset="420">
-          <folding>
-            <element signature="e#0#414#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="20" column="36" selection-start="407" selection-end="407" vertical-scroll-proportion="0.66292137" vertical-offset="64" max-vertical-offset="420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/service/ProductionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="42" selection-start="425" selection-end="425" vertical-scroll-proportion="0.6833773" vertical-offset="41" max-vertical-offset="420">
-          <folding>
-            <element signature="e#0#432#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="20" column="42" selection-start="425" selection-end="425" vertical-scroll-proportion="0.6833773" vertical-offset="41" max-vertical-offset="420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/service/PersonService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="34" selection-start="401" selection-end="401" vertical-scroll-proportion="0.6833773" vertical-offset="41" max-vertical-offset="420">
-          <folding>
-            <element signature="e#0#408#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="20" column="34" selection-start="401" selection-end="401" vertical-scroll-proportion="0.6833773" vertical-offset="41" max-vertical-offset="420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/service/ParityService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="34" selection-start="401" selection-end="401" vertical-scroll-proportion="0.6833773" vertical-offset="41" max-vertical-offset="420">
-          <folding>
-            <element signature="e#0#408#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="20" column="34" selection-start="401" selection-end="401" vertical-scroll-proportion="0.6833773" vertical-offset="41" max-vertical-offset="420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/service/LocationLevelService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="48" selection-start="443" selection-end="443" vertical-scroll-proportion="0.6833773" vertical-offset="41" max-vertical-offset="420">
-          <folding>
-            <element signature="e#0#450#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="20" column="48" selection-start="443" selection-end="443" vertical-scroll-proportion="0.6833773" vertical-offset="41" max-vertical-offset="420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/service/LocationService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="38" selection-start="413" selection-end="413" vertical-scroll-proportion="0.6833773" vertical-offset="41" max-vertical-offset="420">
-          <folding>
-            <element signature="e#0#420#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="20" column="38" selection-start="413" selection-end="413" vertical-scroll-proportion="0.6833773" vertical-offset="41" max-vertical-offset="420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/service/BullService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="32" selection-start="391" selection-end="391" vertical-scroll-proportion="0.66292137" vertical-offset="64" max-vertical-offset="420">
-          <folding>
-            <element signature="e#0#396#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="20" column="32" selection-start="391" selection-end="391" vertical-scroll-proportion="0.66292137" vertical-offset="64" max-vertical-offset="420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/service/CowService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="33" selection-start="202" selection-end="202" vertical-scroll-proportion="0.27704486" vertical-offset="0" max-vertical-offset="435">
-          <folding>
-            <element signature="e#0#421#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="7" column="33" selection-start="202" selection-end="202" vertical-scroll-proportion="0.27704486" vertical-offset="0" max-vertical-offset="435" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/service/LiveStockEventService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="50" selection-start="449" selection-end="449" vertical-scroll-proportion="0.49586776" vertical-offset="0" max-vertical-offset="605">
-          <folding>
-            <element signature="e#0#456#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="20" column="50" selection-start="449" selection-end="449" vertical-scroll-proportion="0.49586776" vertical-offset="0" max-vertical-offset="605" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/service/KwituraService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="36" selection-start="407" selection-end="407" vertical-scroll-proportion="0.49586776" vertical-offset="0" max-vertical-offset="605">
-          <folding>
-            <element signature="e#0#414#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="20" column="36" selection-start="407" selection-end="407" vertical-scroll-proportion="0.49586776" vertical-offset="0" max-vertical-offset="605" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/service/InseminationService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="46" selection-start="437" selection-end="437" vertical-scroll-proportion="0.49586776" vertical-offset="0" max-vertical-offset="605">
-          <folding>
-            <element signature="e#0#444#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="20" column="46" selection-start="437" selection-end="437" vertical-scroll-proportion="0.49586776" vertical-offset="0" max-vertical-offset="605" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/service/GirinkaService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="36" selection-start="407" selection-end="407" vertical-scroll-proportion="0.49586776" vertical-offset="0" max-vertical-offset="605">
-          <folding>
-            <element signature="e#0#414#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="20" column="36" selection-start="407" selection-end="407" vertical-scroll-proportion="0.49586776" vertical-offset="0" max-vertical-offset="605" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/service/impl/SourceServiceImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="967" selection-end="967" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
-          <folding />
-        </state>
+        <state line="35" column="0" selection-start="967" selection-end="967" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/db/ProductionDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="17" selection-start="305" selection-end="305" vertical-scroll-proportion="0.2538071" vertical-offset="0" max-vertical-offset="591">
-          <folding />
-        </state>
+        <state line="16" column="17" selection-start="305" selection-end="305" vertical-scroll-proportion="0.2538071" vertical-offset="0" max-vertical-offset="591" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/service/impl/UserServiceImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="3" selection-start="489" selection-end="489" vertical-scroll-proportion="0.38925081" vertical-offset="31" max-vertical-offset="645">
-          <folding>
-            <element signature="e#0#936#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="18" column="3" selection-start="489" selection-end="489" vertical-scroll-proportion="0.38925081" vertical-offset="31" max-vertical-offset="645" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/service/impl/RoleServiceImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="35" selection-start="861" selection-end="861" vertical-scroll-proportion="0.88550985" vertical-offset="0" max-vertical-offset="645">
-          <folding>
-            <element signature="e#0#936#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="33" column="35" selection-start="861" selection-end="861" vertical-scroll-proportion="0.88550985" vertical-offset="0" max-vertical-offset="645" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/service/impl/ProgramServiceImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="37" selection-start="908" selection-end="908" vertical-scroll-proportion="0.88550985" vertical-offset="0" max-vertical-offset="645">
-          <folding>
-            <element signature="e#0#987#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="33" column="37" selection-start="908" selection-end="908" vertical-scroll-proportion="0.88550985" vertical-offset="0" max-vertical-offset="645" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/service/impl/ProductionServiceImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="43" selection-start="959" selection-end="959" vertical-scroll-proportion="0.86994725" vertical-offset="0" max-vertical-offset="645">
-          <folding>
-            <element signature="e#0#1038#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="33" column="43" selection-start="959" selection-end="959" vertical-scroll-proportion="0.86994725" vertical-offset="0" max-vertical-offset="645" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/service/impl/PersonServiceImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="35" selection-start="891" selection-end="891" vertical-scroll-proportion="0.8505155" vertical-offset="0" max-vertical-offset="645">
-          <folding>
-            <element signature="e#0#970#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="33" column="35" selection-start="891" selection-end="891" vertical-scroll-proportion="0.8505155" vertical-offset="0" max-vertical-offset="645" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/service/impl/ParityServiceImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="35" selection-start="891" selection-end="891" vertical-scroll-proportion="0.8505155" vertical-offset="0" max-vertical-offset="645">
-          <folding>
-            <element signature="e#0#970#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="33" column="35" selection-start="891" selection-end="891" vertical-scroll-proportion="0.8505155" vertical-offset="0" max-vertical-offset="645" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/service/impl/LocationServiceImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="39" selection-start="925" selection-end="925" vertical-scroll-proportion="0.8181818" vertical-offset="0" max-vertical-offset="645">
-          <folding>
-            <element signature="e#0#1004#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="33" column="39" selection-start="925" selection-end="925" vertical-scroll-proportion="0.8181818" vertical-offset="0" max-vertical-offset="645" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/service/impl/LocationLevelServiceImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="49" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.8361486" vertical-offset="0" max-vertical-offset="645">
-          <folding>
-            <element signature="e#0#1089#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="33" column="49" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.8361486" vertical-offset="0" max-vertical-offset="645" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/service/impl/LiveStockEventServiceImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="51" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.8361486" vertical-offset="0" max-vertical-offset="645">
-          <folding>
-            <element signature="e#0#1106#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="33" column="51" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.8361486" vertical-offset="0" max-vertical-offset="645" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/models/Kwitura.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="32" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1320">
-          <folding>
-            <element signature="e#654#655#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="29" column="32" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1320" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/service/BreedService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="32" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <folding />
-        </state>
+        <state line="21" column="32" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/service/impl/BreedServiceImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="33" selection-start="873" selection-end="873" vertical-scroll-proportion="0.8505155" vertical-offset="0" max-vertical-offset="645">
-          <folding>
-            <element signature="e#0#951#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="33" column="33" selection-start="873" selection-end="873" vertical-scroll-proportion="0.8505155" vertical-offset="0" max-vertical-offset="645" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/service/impl/BullServiceImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="35" selection-start="861" selection-end="861" vertical-scroll-proportion="0.8505155" vertical-offset="0" max-vertical-offset="645">
-          <folding>
-            <element signature="e#0#936#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="33" column="35" selection-start="861" selection-end="861" vertical-scroll-proportion="0.8505155" vertical-offset="0" max-vertical-offset="645" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/service/impl/CowServiceImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="28" selection-start="805" selection-end="805" vertical-scroll-proportion="0.82474226" vertical-offset="0" max-vertical-offset="645">
-          <folding>
-            <element signature="e#0#917#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="32" column="28" selection-start="805" selection-end="805" vertical-scroll-proportion="0.82474226" vertical-offset="0" max-vertical-offset="645" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/service/impl/GirinkaServiceImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="37" selection-start="908" selection-end="908" vertical-scroll-proportion="0.8181818" vertical-offset="0" max-vertical-offset="645">
-          <folding>
-            <element signature="e#0#987#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="33" column="37" selection-start="908" selection-end="908" vertical-scroll-proportion="0.8181818" vertical-offset="0" max-vertical-offset="645" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/service/impl/InseminationServiceImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="47" selection-start="993" selection-end="993" vertical-scroll-proportion="0.8361486" vertical-offset="0" max-vertical-offset="645">
-          <folding>
-            <element signature="e#0#1072#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="33" column="47" selection-start="993" selection-end="993" vertical-scroll-proportion="0.8361486" vertical-offset="0" max-vertical-offset="645" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/service/impl/KwituraServiceImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="37" selection-start="908" selection-end="908" vertical-scroll-proportion="0.8181818" vertical-offset="0" max-vertical-offset="645">
-          <folding>
-            <element signature="e#0#987#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="33" column="37" selection-start="908" selection-end="908" vertical-scroll-proportion="0.8181818" vertical-offset="0" max-vertical-offset="645" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/web/ViewController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="295" column="60" selection-start="10986" selection-end="10986" vertical-scroll-proportion="5.898477" vertical-offset="939" max-vertical-offset="4590">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="295" column="60" selection-start="10986" selection-end="10986" vertical-scroll-proportion="5.898477" vertical-offset="939" max-vertical-offset="4590" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/db/hibernate/UserDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="74" selection-start="849" selection-end="849" vertical-scroll-proportion="0.82474226" vertical-offset="0" max-vertical-offset="615">
-          <folding>
-            <element signature="e#0#866#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="32" column="74" selection-start="849" selection-end="849" vertical-scroll-proportion="0.82474226" vertical-offset="0" max-vertical-offset="615" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/db/hibernate/RoleDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="74" selection-start="849" selection-end="849" vertical-scroll-proportion="0.76804125" vertical-offset="33" max-vertical-offset="615">
-          <folding>
-            <element signature="e#0#866#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="32" column="74" selection-start="849" selection-end="849" vertical-scroll-proportion="0.76804125" vertical-offset="33" max-vertical-offset="615" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/db/hibernate/ProgramDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="75" selection-start="880" selection-end="880" vertical-scroll-proportion="0.82474226" vertical-offset="0" max-vertical-offset="615">
-          <folding>
-            <element signature="e#0#899#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="32" column="75" selection-start="880" selection-end="880" vertical-scroll-proportion="0.82474226" vertical-offset="0" max-vertical-offset="615" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/db/hibernate/ProductionDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="78" selection-start="913" selection-end="913" vertical-scroll-proportion="0.82474226" vertical-offset="0" max-vertical-offset="615">
-          <folding>
-            <element signature="e#0#932#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="32" column="78" selection-start="913" selection-end="913" vertical-scroll-proportion="0.82474226" vertical-offset="0" max-vertical-offset="615" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/db/hibernate/PersonDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="74" selection-start="869" selection-end="869" vertical-scroll-proportion="0.82474226" vertical-offset="0" max-vertical-offset="615">
-          <folding>
-            <element signature="e#0#888#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="32" column="74" selection-start="869" selection-end="869" vertical-scroll-proportion="0.82474226" vertical-offset="0" max-vertical-offset="615" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/db/hibernate/ParityDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="74" selection-start="869" selection-end="869" vertical-scroll-proportion="0.7933884" vertical-offset="0" max-vertical-offset="615">
-          <folding>
-            <element signature="e#0#888#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="32" column="74" selection-start="869" selection-end="869" vertical-scroll-proportion="0.7933884" vertical-offset="0" max-vertical-offset="615" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/db/hibernate/LocationDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="76" selection-start="891" selection-end="891" vertical-scroll-proportion="0.7933884" vertical-offset="0" max-vertical-offset="615">
-          <folding>
-            <element signature="e#0#910#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="32" column="76" selection-start="891" selection-end="891" vertical-scroll-proportion="0.7933884" vertical-offset="0" max-vertical-offset="615" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/db/hibernate/LocationLevelDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="81" selection-start="946" selection-end="946" vertical-scroll-proportion="0.7933884" vertical-offset="0" max-vertical-offset="615">
-          <folding>
-            <element signature="e#0#965#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="32" column="81" selection-start="946" selection-end="946" vertical-scroll-proportion="0.7933884" vertical-offset="0" max-vertical-offset="615" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/db/hibernate/LiveStockEventDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="82" selection-start="957" selection-end="957" vertical-scroll-proportion="0.7933884" vertical-offset="0" max-vertical-offset="615">
-          <folding>
-            <element signature="e#0#976#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="32" column="82" selection-start="957" selection-end="957" vertical-scroll-proportion="0.7933884" vertical-offset="0" max-vertical-offset="615" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/db/hibernate/BreedDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="32" selection-start="779" selection-end="779" vertical-scroll-proportion="0.7474227" vertical-offset="30" max-vertical-offset="615">
-          <folding>
-            <element signature="e#0#876#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="31" column="32" selection-start="779" selection-end="779" vertical-scroll-proportion="0.7474227" vertical-offset="30" max-vertical-offset="615" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/db/hibernate/BullDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="74" selection-start="849" selection-end="849" vertical-scroll-proportion="0.7933884" vertical-offset="0" max-vertical-offset="615">
-          <folding>
-            <element signature="e#0#866#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="32" column="74" selection-start="849" selection-end="849" vertical-scroll-proportion="0.7933884" vertical-offset="0" max-vertical-offset="615" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/db/hibernate/CowDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="28" selection-start="759" selection-end="759" vertical-scroll-proportion="0.76859504" vertical-offset="0" max-vertical-offset="615">
-          <folding>
-            <element signature="e#0#854#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="31" column="28" selection-start="759" selection-end="759" vertical-scroll-proportion="0.76859504" vertical-offset="0" max-vertical-offset="615" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/db/hibernate/GirinkaDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="75" selection-start="880" selection-end="880" vertical-scroll-proportion="0.7933884" vertical-offset="0" max-vertical-offset="615">
-          <folding>
-            <element signature="e#0#899#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="32" column="75" selection-start="880" selection-end="880" vertical-scroll-proportion="0.7933884" vertical-offset="0" max-vertical-offset="615" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/db/hibernate/InseminationDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="80" selection-start="935" selection-end="935" vertical-scroll-proportion="0.7933884" vertical-offset="0" max-vertical-offset="615">
-          <folding>
-            <element signature="e#0#954#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="32" column="80" selection-start="935" selection-end="935" vertical-scroll-proportion="0.7933884" vertical-offset="0" max-vertical-offset="615" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rab/girinka/db/hibernate/KwituraDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="75" selection-start="880" selection-end="880" vertical-scroll-proportion="0.7933884" vertical-offset="0" max-vertical-offset="615">
-          <folding>
-            <element signature="e#0#899#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="32" column="75" selection-start="880" selection-end="880" vertical-scroll-proportion="0.7933884" vertical-offset="0" max-vertical-offset="615" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="57" selection-start="3250" selection-end="3250" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1290">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="26" selection-start="190" selection-end="190" vertical-scroll-proportion="0.13363029" vertical-offset="0" max-vertical-offset="449">
+          <folding />
         </state>
       </provider>
     </entry>
