@@ -10,6 +10,7 @@ public class Breed implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     protected int idBreed;
 
+
     protected String breedName;
 
     public User getCreatedBy() {
@@ -32,5 +33,25 @@ public class Breed implements Serializable {
 
     public Breed() {
     }
+    public int getIdBreed() {
+        return idBreed;
+    }
+
+    public void setIdBreed(int idBreed) {
+        this.idBreed = idBreed;
+    }
+
+    public String getBreedName() {
+        return breedName;
+    }
+
+    public void setBreedName(String breedName) {
+        this.breedName = breedName;
+    }
+
+    public void setUuid(String uuid) {
+        this.uuid = uuid;
+    }
+
 
 }

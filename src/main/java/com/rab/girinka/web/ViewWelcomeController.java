@@ -18,12 +18,12 @@ public class ViewWelcomeController {
     @Autowired
     private SourceService sourceService;
 
-    @RequestMapping(value="index.html", method = RequestMethod.GET)
+    @RequestMapping(value="index.do", method = RequestMethod.GET)
     protected String viewWelcome(){
         return "welcome";
     }
     @RequestMapping(value="/", method = RequestMethod.GET)
      protected String viewIndex(){
-        return "welcome";
+        return "welcomes";
     }
 }
