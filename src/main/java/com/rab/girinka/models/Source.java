@@ -26,6 +26,19 @@ public class Source implements Serializable {
     private String description;
     @OneToMany
     private List<Program> programs;
+
+    public User getCreatedBy() {
+        return createdBy;
+    }
+
+    public void setCreatedBy(User createdBy) {
+        this.createdBy = createdBy;
+    }
+
+    public void setUuid(String uuid) {
+        this.uuid = uuid;
+    }
+
     @ManyToOne
     private User createdBy;
     public String getUuid() {

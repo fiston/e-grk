@@ -21,8 +21,9 @@
     <mvc:resources mapping="/styles/**" location="/WEB-INF/styles/" />
 
     <bean id="jspViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="/WEB-INF/pages/"/>
+        <property name="prefix" value="/WEB-INF/pages/jsp/"/>
         <property name="suffix" value=".jsp"/>
+        <property name="order" value="1"/>
     </bean>
     <!--Tiles-->
     <bean id="tilesConfigurer" class="org.springframework.web.servlet.view.tiles3.TilesConfigurer">
@@ -35,7 +36,7 @@
 
     <bean id="viewResolver" class="org.springframework.web.servlet.view.UrlBasedViewResolver">
         <property name="viewClass" value="org.springframework.web.servlet.view.tiles3.TilesView"/>
-        <property name="order" value="#{jspViewResolver.order+1}" />
+        <property name="order" value="#{jspViewResolver.order-1}" />
     </bean>
     <!--End tiles-->
     <bean id="messageSource"

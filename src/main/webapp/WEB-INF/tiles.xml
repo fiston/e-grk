@@ -1,23 +1,83 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
 <tiles-definitions>
 
-    <definition name="baseLayout" template="/WEB-INF/pages/layout.jsp">
-        <put-attribute name="title" value="" />
-        <put-attribute name="header" value="/WEB-INF/pages/header.jsp" />
-        <put-attribute name="navigation" value="/WEB-INF/pages/navigations.jsp" />
-        <put-attribute name="body" value="" />
-        <put-attribute name="footer" value="/WEB-INF/pages/footer.jsp" />
+    <definition name="baseLayout" template="/WEB-INF/pages/def-tiles/layout.jsp">
+        <put-attribute name="title" value=""/>
+        <put-attribute name="header" value="/WEB-INF/pages/def-tiles/header.jsp"/>
+        <put-attribute name="navigation" value="/WEB-INF/pages/def-tiles/navigations.jsp"/>
+        <put-attribute name="body" value=""/>
+        <put-attribute name="footer" value="/WEB-INF/pages/def-tiles/footer.jsp"/>
     </definition>
 
     <definition name="source" extends="baseLayout">
-        <put-attribute name="title" value="Source" />
-        <put-attribute name="body" value="/WEB-INF/pages/source.jsp" />
+        <put-attribute name="title" value="Source"/>
+        <put-attribute name="body" value="/WEB-INF/pages/jsp/source.jsp"/>
     </definition>
-
-    <definition name="welcomes" extends="baseLayout">
-        <put-attribute name="title" value=" Welcome" />
-        <put-attribute name="body" value="/WEB-INF/pages/welcomes.jsp" />
+    <definition name="breed" extends="baseLayout">
+        <put-attribute name="title" value="breed"/>
+        <put-attribute name="body" value="/WEB-INF/pages/jsp/breed.jsp"/>
+    </definition>
+    <definition name="bull" extends="baseLayout">
+        <put-attribute name="title" value="bull"/>
+        <put-attribute name="body" value="/WEB-INF/pages/jsp/bull.jsp"/>
+    </definition>
+    <definition name="cow" extends="baseLayout">
+        <put-attribute name="title" value="cow"/>
+        <put-attribute name="body" value="/WEB-INF/pages/jsp/cow.jsp"/>
+    </definition>
+    <definition name="girinka" extends="baseLayout">
+        <put-attribute name="title" value="girinka"/>
+        <put-attribute name="body" value="/WEB-INF/pages/jsp/girinka.jsp"/>
+    </definition>
+    <definition name="insemination" extends="baseLayout">
+        <put-attribute name="title" value="insemination"/>
+        <put-attribute name="body" value="/WEB-INF/pages/jsp/insemination.jsp"/>
+    </definition>
+    <definition name="kwitura" extends="baseLayout">
+        <put-attribute name="title" value="kwitura"/>
+        <put-attribute name="body" value="/WEB-INF/pages/jsp/kwitura.jsp"/>
+    </definition>
+    <definition name="liveStockEvent" extends="baseLayout">
+        <put-attribute name="title" value="liveStockEvent"/>
+        <put-attribute name="body" value="/WEB-INF/pages/jsp/liveStockEvent.jsp"/>
+    </definition>
+    <definition name="location" extends="baseLayout">
+        <put-attribute name="title" value="location"/>
+        <put-attribute name="body" value="/WEB-INF/pages/jsp/location.jsp"/>
+    </definition>
+    <definition name="locationLevel" extends="baseLayout">
+        <put-attribute name="title" value="locationLevel"/>
+        <put-attribute name="body" value="/WEB-INF/pages/jsp/locationLevel.jsp"/>
+    </definition>
+    <definition name="parity" extends="baseLayout">
+        <put-attribute name="title" value="parity"/>
+        <put-attribute name="body" value="/WEB-INF/pages/jsp/parity.jsp"/>
+    </definition>
+    <definition name="person" extends="baseLayout">
+        <put-attribute name="title" value="person"/>
+        <put-attribute name="body" value="/WEB-INF/pages/jsp/person.jsp"/>
+    </definition>
+    <definition name="production" extends="baseLayout">
+        <put-attribute name="title" value="production"/>
+        <put-attribute name="body" value="/WEB-INF/pages/jsp/production.jsp"/>
+    </definition>
+    <definition name="program" extends="baseLayout">
+        <put-attribute name="title" value="program"/>
+        <put-attribute name="body" value="/WEB-INF/pages/jsp/program.jsp"/>
+    </definition>
+    <definition name="role" extends="baseLayout">
+        <put-attribute name="title" value="role"/>
+        <put-attribute name="body" value="/WEB-INF/pages/jsp/role.jsp"/>
+    </definition>
+    <definition name="user" extends="baseLayout">
+        <put-attribute name="title" value="user"/>
+        <put-attribute name="body" value="/WEB-INF/pages/jsp/user.jsp"/>
+    </definition>
+    <definition name="welcome" extends="baseLayout">
+        <put-attribute name="title" value=" Welcome"/>
+        <put-attribute name="body" value="/WEB-INF/pages/jsp/welcome.jsp"/>
     </definition>
 
 </tiles-definitions>

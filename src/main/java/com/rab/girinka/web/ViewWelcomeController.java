@@ -24,6 +24,6 @@ public class ViewWelcomeController {
     }
     @RequestMapping(value="/", method = RequestMethod.GET)
      protected String viewIndex(){
-        return "welcomes";
+        return "welcome";
     }
 }
